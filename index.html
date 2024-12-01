@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q2Quiz2</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yuji+Mai&display=swap" rel="stylesheet">
+	<style>
+		body{
+			background: url(https://media.istockphoto.com/id/1183381714/vector/high-tech-technology-geometric.jpg?s=612x612&w=0&k=20&c=XD75A5m0J1UUQOzsighLhmObhrppnKCHQ1ghnIN-ES4=);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		h1{
+		    font-family: Yuji Mai;
+		    text-align: center;
+		    color: white;
+		    background-color: rgba(79, 179, 167, 2.0);
+		    padding: 15px;
+		}
+		.form-box{
+			background-color: rgba(79, 179, 167, 2.0);
+			border-radius: 10px;
+			padding: 20px;
+			margin-top: 20px;
+			box-shadow: 0 7px 6px rgba(0, 0, 0, 0.8);
+		}
+		label{
+			color: white;
+		}
+		.table td, .table th{
+			border: 5px dotted; black;
+			padding: 10px;
+		}
+		a{
+		    display: inline-block;
+		    color: white;
+		    text-decoration: none;
+		    font-size: 18px;
+		    padding: 10px;
+		    font-family:Yuji Mai;
+		}
+		a:hover{
+		    color: #338a80;
+		}
+
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+		<!---Brand logo--->
+			<div class="container-fluid">
+					<img src= https://png.pngtree.com/png-vector/20201224/ourmid/pngtree-future-intelligent-technology-robot-ai-png-image_2588803.jpg width="50" height="50">Logo</div>
+
+		<!----Add links---->
+		<div class="collapse navbar-collapse">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="indexsw1.html" target="_blank">page1.html</a>
+					</li>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="indexq1.html" target="_blank">page3.html</a>
+					</li>
+						<!----Add search bar---->
+			<form class="d-flex">
+				<input class="form-control" type="text" placeholder="Search...">
+				<button class="btn btn-success" type="button"></button>
+			</div>
+			</div>
+	</nav>
+	<div class="container">
+		<div class="form-box">
+			<h1><span style="color: darkblue;">Robotics Club</span> Registration</h1>
+			<form class="form-group">
+				<div class="row">
+					<div class="col-md-6">
+						<label for="name">name:</label>
+						<input type="text" class="form-control" id="name">
+					</div>
+					<div class="col-md-6">
+						<label for="phone-number">phone #:</label>
+						<input type="text" class="form-control" id="phone-number">
+					</div>
+					<div class="row">
+					<div class="col-md-6">
+						<label for="email">email:</label>
+						<input type="email" class="form-control" id="email">
+					</div>
+					<div class="col-md-6">
+						<label for="age">age:</label>
+						<input type="number" class="form-control" id="age">
+					</div>
+				</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-6">
+						<label for="RobEx">robotics experience:</label><br>
+						<div>
+							<input type="radio" id="beginner" name="RobEx" value="Beginner">
+							<label for="beginner">beginner</label>
+						</div>
+						<div>
+							<input type="radio" id="intermediate" name="RobEx" value="Intermediate">
+							<label for="intermediate">intermediate</label>
+						</div>
+						<div>
+							<input type="radio" id="expert" name="RobEx" value="Expert">
+							<label for="expert">expert</label>
+						</div>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-6">
+						<label for="primary-area">preferred robotics primary area:</label>
+						<select class="form-control" id="primary-area">
+							<option>Select</option>
+							<option value="ManEffect">manipulators & effectors</option>
+							<option value="OpeInter">operator Interface</option>
+							<option value="Programming">programming</option>
+							<option value="SenPer">sensing & perception</option>
+							<option value="Mobility">mobility</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label for="topic">preferred robotics topic:</label>
+						<select class="form-control" id="primary-area">
+							<option>Select</option>
+							<option value="SpaRob">space robotics</option>
+							<option value="MedRob">medical robotics</option>
+							<option value="InduRob">industrial robotics</option>
+						</select>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-12">
+						<label for="why">why do you want to join our club?</label>
+						<textarea class="form-control" id="reason" rows="4"></textarea>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row" align="center">
+					<div class="d-grid">
+						<button class="btn btn-sm" style="background-color: darkblue; color: white; border: none;">Submit</button>
+					</div>
+				</div>
+			</form>
+
+			<br>
+
+			<div style="text-align: center;">
+			<a href="https://docs.google.com/document/d/1k4FHe9n1KXncN2Kdiouno4F6KMa9FpGZ37gl3VVRapI/edit?usp=sharing" target="_blank">References</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
